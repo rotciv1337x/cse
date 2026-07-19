@@ -14,8 +14,7 @@ cp upload/* /var/www/html/ -rf
 chmod -R 777 /var/www/html/
 cd /var/www/html/
 pwd
-ll | grep config.php
-nano config.php
+ls -alh | grep config.php
 cd admin/
 pwd
-ll | grep config.php
+ls -alh | grep config.php
